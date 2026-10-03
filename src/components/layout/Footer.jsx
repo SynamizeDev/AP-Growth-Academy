@@ -56,7 +56,7 @@ export default function Footer() {
             </div>
 
             <p className="app-footer__text">
-              AP Growth Academy is founded by Abhishek Pandey, dedicated to mentoring traders, high-performance sales leaders, and digital entrepreneurs across the globe.
+             AP Growth Academy, founded by Abhishek Pandey, empowers traders, sales professionals, and digital entrepreneurs worldwide through expert mentorship, practical learning, and growth-driven strategies. We are committed to helping aspiring individuals build the right mindset, develop essential skills, and unlock their full potential.
             </p>
 
             <p className="app-footer__subtext">
@@ -72,10 +72,6 @@ export default function Footer() {
                   <span className="app-footer__badge-status">VALIDATED</span>
                   <span className="app-footer__badge-label">Verified Academy</span>
                 </div>
-              </div>
-
-              <div className="app-footer__age-badge">
-                <span>18+</span>
               </div>
             </div>
           </div>
@@ -113,33 +109,27 @@ export default function Footer() {
             <h3 className="app-footer__title">COMMUNITY</h3>
             <ul className="app-footer__links">
               <li>
-                <a href="https://x.com" target="_blank" rel="noopener noreferrer" className="app-footer__icon-link">
+                <a href="https://x.com/pandeabhishek1" target="_blank" rel="noopener noreferrer" className="app-footer__icon-link">
                   <XIcon className="w-3.5 h-3.5 text-[#cbd5e1]" />
                   <span>X (Twitter)</span>
                 </a>
               </li>
               <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="app-footer__icon-link">
+                <a href="https://www.instagram.com/abhishekpandey.global/?hl=en" target="_blank" rel="noopener noreferrer" className="app-footer__icon-link">
                   <InstagramIcon className="w-3.5 h-3.5 text-[#e1306c]" />
                   <span>Instagram</span>
                 </a>
               </li>
               <li>
-                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="app-footer__icon-link">
+                <a href="https://www.youtube.com/@abhishekpandeyofficiial" target="_blank" rel="noopener noreferrer" className="app-footer__icon-link">
                   <YouTubeIcon className="w-3.5 h-3.5 text-[#ff0000]" />
                   <span>YouTube</span>
                 </a>
               </li>
               <li>
-                <a href="https://t.me" target="_blank" rel="noopener noreferrer" className="app-footer__icon-link">
+                <a href="https://t.me/abhishekpandeyofficial1" target="_blank" rel="noopener noreferrer" className="app-footer__icon-link">
                   <TelegramIcon className="w-3.5 h-3.5 text-[#229ed9]" />
                   <span>Telegram Channel</span>
-                </a>
-              </li>
-              <li>
-                <a href="https://discord.com" target="_blank" rel="noopener noreferrer" className="app-footer__icon-link">
-                  <DiscordIcon className="w-3.5 h-3.5 text-[#5865F2]" />
-                  <span>Discord VIP Lounge</span>
                 </a>
               </li>
               <li><a href="#help">Help Centre & FAQs</a></li>
@@ -167,16 +157,6 @@ export default function Footer() {
           <div className="app-footer__contact-item">
             <span className="app-footer__contact-label">Support</span>
             <a href="mailto:support@apgrowthacademy.com" className="app-footer__contact-email">support@apgrowthacademy.com</a>
-          </div>
-          <span className="app-footer__contact-separator">|</span>
-          <div className="app-footer__contact-item">
-            <span className="app-footer__contact-label">Partners</span>
-            <a href="mailto:partners@apgrowthacademy.com" className="app-footer__contact-email">partners@apgrowthacademy.com</a>
-          </div>
-          <span className="app-footer__contact-separator">|</span>
-          <div className="app-footer__contact-item">
-            <span className="app-footer__contact-label">Legal</span>
-            <a href="mailto:legal@apgrowthacademy.com" className="app-footer__contact-email">legal@apgrowthacademy.com</a>
           </div>
         </div>
       </div>

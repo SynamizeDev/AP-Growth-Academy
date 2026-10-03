@@ -18,7 +18,19 @@ export default function Sidebar({ groups = [], open = false, onClose }) {
               {group.items.map((item) => {
                 const Icon = item.icon
                 return (
-                  <a href={item.href || '#'} className={item.active ? 'is-active' : ''} key={item.label}>
+                  <a
+                    href={item.href || '#'}
+                    className={item.active ? 'is-active' : ''}
+                    key={item.label}
+                    onClick={(e) => {
+                      if (item.onClick) {
+                        item.onClick(e)
+                      }
+                      if (onClose) {
+                        onClose()
+                      }
+                    }}
+                  >
                     {Icon && <Icon className="app-sidebar__item-icon" aria-hidden="true" />}
                     <span>{item.label}</span>
                     {item.badge && <Badge tone={item.badgeTone || 'blue'}>{item.badge}</Badge>}
